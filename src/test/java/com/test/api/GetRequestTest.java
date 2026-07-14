@@ -21,5 +21,6 @@ public class GetRequestTest {
             .body("id", equalTo(1))
             .body("title", notNullValue())
             .log().all(); 
+        System.out.println("test for code change wil triger the build");
     }
 }

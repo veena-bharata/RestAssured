@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.test.api.GetRequestTest" time="9.928" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.test.api.GetRequestTest" time="6.6" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin"/>
-    <property name="sun.java.command" value="C:\Users\veena\AppData\Local\Temp\surefire6844397172536855070\surefirebooter-20260714162916859_3.jar C:\Users\veena\AppData\Local\Temp\surefire6844397172536855070 2026-07-14T16-29-15_911-jvmRun1 surefire-20260714162916859_1tmp surefire_0-20260714162916859_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\veena\AppData\Local\Temp\surefire16623828436084785448\surefirebooter-20260714191344989_3.jar C:\Users\veena\AppData\Local\Temp\surefire16623828436084785448 2026-07-14T19-13-44_614-jvmRun1 surefire-20260714191344989_1tmp surefire_0-20260714191344989_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\RestAssured\RestAssuredJenkinsDemo\target\test-classes;D:\RestAssured\RestAssuredJenkinsDemo\target\classes;C:\Users\veena\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\veena\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\veena\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\veena\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\veena\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\veena\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\veena\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\veena\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\veena\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\veena\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\veena\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\veena\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\veena\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\veena\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\veena\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\veena\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\veena\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\veena\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\veena\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\veena\AppData\Local\Temp\surefire6844397172536855070\surefirebooter-20260714162916859_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\veena\AppData\Local\Temp\surefire16623828436084785448\surefirebooter-20260714191344989_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.11+9-LTS-211"/>
@@ -58,14 +58,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testGetUsers" classname="com.test.api.GetRequestTest" time="8.234">
+  <testcase name="testGetUsers" classname="com.test.api.GetRequestTest" time="5.711">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Tue, 14 Jul 2026 10:59:24 GMT
+Date: Tue, 14 Jul 2026 13:43:49 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Credentials: true
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MI99cy6FejhBpigmipuQwL6fyGjRkc6z%2BcLQecsgJpTFXq2HipJzpx%2Bl0JLzWDwrc8jxNoujjVSEUqCxBIfNoeVzYqnribtTT417Q5zfKKNg9xv%2BfqjLdgvq4SYqFASn"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Etag: W/"5e6-bX+IgjHKZz+TflDmEXfyyaBO9Hk"
 Strict-Transport-Security: max-age=15552000; includeSubDomains
 Vary: Origin, Accept-Encoding
@@ -77,13 +77,13 @@ X-Ratelimit-Limit: 100
 X-Ratelimit-Remaining: 99
 X-Ratelimit-Reset: 1783410621
 X-Xss-Protection: 1; mode=block
-Age: 11237
+Age: 21102
 Cache-Control: no-store
 Cf-Cache-Status: HIT
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=J4xd8wUM%2FtZf21o0uv3rrxWMs9khzGuiOSKBTDQG7yTtSxMA%2FBldhiNjhmH16067foZW1yVnARJcXDhINFGjTiwFytQBxA181m5lHOkD%2BrZhHK0lK%2FJTyIZm7a4pYGOd"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a1b0048eb99f426e-MAA
+CF-RAY: a1b0f568ec342b44-MAA
 
 {
     "id": 1,
