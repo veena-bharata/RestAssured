@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         // Explicitly map your Maven directory path to resolve the command line error
-        MAVEN_HOME = 'C:\Program Files\apache-maven-3.9.16\bin\mvn'
+        MAVEN_HOME = 'C:\\Program Files\\apache-maven-3.9.16'
         // Map your exact JDK installation directory
-        JAVA_HOME  = 'C:\Program Files\Java\jdk-21.0.11'
+        JAVA_HOME  = 'C:\\Program Files\\Java\\jdk-21.0.11'
     }
 
     stages {
