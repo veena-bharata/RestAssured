@@ -1,8 +1,12 @@
 pipeline {
     agent any
 
-    // REMOVED: The strict tools block has been removed so Jenkins 
-    // uses your system's global 'mvn' and 'java' path variables natively.
+    environment {
+        // Explicitly map your Maven directory path to resolve the command line error
+        MAVEN_HOME = 'C:\Program Files\apache-maven-3.9.16\bin\mvn'
+        // Map your exact JDK installation directory
+        JAVA_HOME  = 'C:\Program Files\Java\jdk-21.0.11'
+    }
 
     stages {
         stage('Checkout Code') {
@@ -13,7 +17,10 @@ pipeline {
 
         stage('Execute API Tests') {
             steps {
-                bat 'mvn clean test'
+                // Injects Maven and Java binary pathways directly into the active terminal session
+                withEnv(["PATH+MAVEN=${env.MAVEN_HOME}\\bin", "PATH+JAVA=${env.JAVA_HOME}\\bin"]) {
+                    bat 'mvn clean test'
+                }
             }
         }
     }
